@@ -188,7 +188,7 @@ class VisualizadorDatos:
 
 def main():
     # Título de la aplicación Streamlit
-    st.markdown("# GRAFICA DE DATOS ")
+    st.markdown("# Áreas Naturales Protegidas (ANP) de Administración Nacional Definitiva ")
 
     # Crear una instancia de la clase VisualizadorDatos y cargar el archivo CSV
     visualizador = VisualizadorDatos("archivo.csv")
